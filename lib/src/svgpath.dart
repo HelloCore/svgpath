@@ -353,10 +353,10 @@ class SvgPath {
     }
 
     var index = 0;
-    var lastX = 0;
-    var lastY = 0;
-    var countourStartX = 0;
-    var countourStartY = 0;
+    num lastX = 0;
+    num lastY = 0;
+    num countourStartX = 0;
+    num countourStartY = 0;
 
     var replacements = {};
     var needReplace = false;
